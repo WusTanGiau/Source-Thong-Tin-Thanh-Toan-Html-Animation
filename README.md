@@ -1,4 +1,3 @@
-# Source-Thong-Tin-Thanh-Toan-Html-Animation
 <h4>Demo Image: </h4>
 <img
   src="https://i.imgur.com/jWSC7ie.png"
