@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css?family=Braah One|Philosopher|Tilt Warp|Tapestry&display=swap');
+._plateContainer__ {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 54px
+}
+
+._plateContainer__ ._infoContainer__ {
+    margin-top: -10px;
+    padding-top: 42px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 42px
+}
+
+@media(max-width: 800px) {
+    ._plateContainer__ ._infoContainer__ {
+        width:90%;
+        margin-top: -24px;
+    }
+}
+
+.ThanhDieu_Avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-radius: 50%;
+    margin: 30px auto 10px;
+    height: 150px;
+    width: 150px; 
+    box-shadow: 0 1px 11px rgb(255, 255, 255);
+    animation: zoomIn 1s ease forwards, floatImg 4s ease-in-out infinite;
+    animation-delay: 2s 3s;
+}
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes floatImg {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.ThanhDieu_Name {
+    font-family: Braah One;
+    color: #fff;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    margin-top: -3px;
+    text-shadow: 3px 0 8px #fff
+}
+.TieuSu__ {
+    font-family: Philosopher;
+    color: #fff;
+    padding: 0;
+    line-height: 1.8;
+    margin-bottom: 0;
+    margin-top: 2px;
+    text-shadow: 3px 0 8px #fff
+}
+.button_facebook {
+    box-shadow: 0 0 5px #a8a8a8;
+    text-shadow: 3px 0 8px #fff;
+	display: flex;
+	height: 50px;
+    width: 280px;
+	padding: 0;
+	background: #3b5998;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.button_facebook:hover {
+	background: #435c92;
+}
+
+.button_facebook:active {
+	background: #435c92;
+}
+
+.button_facebook__text,
+.button_facebook__icon {
+    font-family: Tilt Warp;
+    white-space: nowrap;
+	display: inline-flex;
+	align-items: center;
+	padding: 0 33px;
+	color: #fff;
+	height: 100%;
+}
+
+.button_facebook__icon {
+	font-size: 1.5em;
+	background: rgba(0, 0, 0, 0.08);
+}
+
+.button_messager{
+    box-shadow: 0 0 5px #a8a8a8;
+    text-shadow: 3px 0 8px #fff;
+	display: flex;
+	height: 50px;
+    width: 280px;
+	padding: 0;
+	background: #376bbd;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.button_messager:hover {
+	background: #487ccf;
+}
+
+.button_messager:active {
+	background: #487ccf;
+}
+
+.button_messager__text,
+.button_messager__icon {
+    font-family: Tilt Warp;
+    white-space: nowrap;
+	display: inline-flex;
+	align-items: center;
+	padding: 0 30px;
+	color: #fff;
+	height: 100%;
+}
+
+.button_messager__icon {
+	font-size: 1.5em;
+	background: rgba(0, 0, 0, 0.08);
+}
+.Hr_tdtv {
+    width: 50%;
+    height: 1px;
+    border: 0;
+    margin-top: 26px;
+    background-image: radial-gradient(circle,#27eeec,#3b3f5c,#3b3f5c)
+}
+.Facebook_Tdtv{
+   text-align: center;
+}
+@media screen and (max-width: 789px) {
+    .Facebook_Tdtv {
+       text-align: center;
+    }
+  }
+  @media screen and (max-width: 789px) {
+    .button_facebook,.button_messager {
+        height: 50px;
+        width: 240px;
+    }
+  }
+  @media screen and (max-width: 789px) {
+    .button_facebook__text,
+    .button_facebook__icon {
+        padding: 0 21px;
+    }
+  }
+  @media screen and (max-width: 789px) {
+    .button_messager__text,
+    .button_messager__icon {
+        padding: 0 18px;
+    }
+  }
+._plateContainer__ ._infoContainer__ .Descriptions____ {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.___bodystyle {
+    text-align: center;
+    padding: 10px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: #ccc;
+    border-width: 2px;
+    animation-name: bodyborder;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: right;
+}
+    @keyframes bodyborder {
+        30% {
+            border-color: #666
+        }
+    
+        60% {
+            border-color: #999
+        }
+    
+        90% {
+            border-color: #ccc
+        }
+    }
+.___bodystylecard {
+    text-align: center;
+    padding: 10px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: #8074c2;
+    border-width: 1px;
+    animation-name: ___bodystylecard;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: right;
+}
+
+@keyframes ___bodystylecard {
+    30% {
+        border-color: rgb(175, 175, 175)
+    }
+
+    60% {
+        border-color: #878788
+    }
+
+    90% {
+        border-color: #00fff2
+    }
+}
+/*
+
+===========================
+
+[SOCIAL BUTTONS]
+
+===========================
+
+*/
+.buttons___{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    margin-left: -30px;
+    align-items: center;
+  }
+  .buttons___ .row-thanhdieu{
+    display: block;
+   margin-left: 65px;
+  }
+  .buttons___ .row-thanhdieu button{
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 90px;
+    margin: 40px 0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+    transition: all 0s ease-out;
+  }
+  .row-thanhdieu button:active{
+    top: 3px;
+  }
+  .row-thanhdieu button.facebook,
+  .row-thanhdieu button.facebook span{
+    background: #3B5999;
+    border-left: 1px solid #2E4476;
+    box-shadow: 0px 5px 0px 0px #2E4476;
+  }
+  .row-thanhdieu button.facebook:active{
+    box-shadow: 0px 2px 0px 0px #2E4476;
+  }
+  .row-thanhdieu button.twitter,
+  .row-thanhdieu button.twitter span{
+    background: #46C1F6;
+    border-left: 1px solid #269BD0;
+    box-shadow: 0px 5px 0px 0px #269BD0;
+  }
+  .row-thanhdieu button.twitter:active{
+    box-shadow: 0px 2px 0px 0px #269BD0;
+  }
+  .row-thanhdieu button.instagram,
+  .row-thanhdieu button.instagram span{
+    background: #e1306c;
+    border-left: 1px solid #c91d56;
+    box-shadow: 0px 5px 0px 0px #c91d56;
+  }
+  .row-thanhdieu button.instagram:active{
+    box-shadow: 0px 2px 0px 0px #c91d56;
+  }
+  .row-thanhdieu button.youtube,
+  .row-thanhdieu button.youtube span{
+    background: #DE463B;
+    border-left: 1px solid #C02B21;
+    box-shadow: 0px 5px 0px 0px #C02B21;
+  }
+  .row-thanhdieu button.youtube:active{
+    box-shadow: 0px 2px 0px 0px #C02B21;
+  }
+  .row-thanhdieu button span{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    top: 0;
+    left: -55px;
+    line-height: 3px;
+    font-size: 17px;
+    display: block;
+    font-weight: normal;
+    border-radius: 5px 0 0 5px;
+  }
+  .row-thanhdieu button:active span{
+    top: -3px;
+  }
+  .row-thanhdieu button.facebook span{
+    border-right: 1px solid #2E4476;
+  }
+  .row-thanhdieu button.twitter span{
+    border-right: 1px solid #269BD0;
+  }
+  .row-thanhdieu button.instagram span{
+    border-right: 1px solid #c91d56;
+  }
+  .row-thanhdieu button.youtube span{
+    border-right: 1px solid #C02B21;
+  }
+  .row-thanhdieu button.facebook:active span{
+    box-shadow: 0px 5px 0px 0px #2E4476,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+  .row-thanhdieu button.twitter:active span{
+    box-shadow: 0px 5px 0px 0px #269BD0,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+  .row-thanhdieu button.instagram:active span{
+    box-shadow: 0px 5px 0px 0px #c91d56,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+  .row-thanhdieu button.youtube:active span{
+    box-shadow: 0px 5px 0px 0px #C02B21,
+                6px 4px 2px rgba(0,0,0,0.3);
+  }
+.infoCard__ {
+    margin-left: 60px;
+    text-align: center;
+    box-shadow: 0 0 3px #6656c4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #060818;
+    border-radius: 15px;
+    width: 80%;
+    height: 190px;
+    color: #bfc9d4;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 15px
+}
+@media screen and (max-width: 789px) {
+    .infoCard__ {
+        margin-left: 0px;
+        width: 100%;
+    }
+  }
+.BankMethod {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 12px 0
+}
+.infoCard__ {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700
+}
+.STK__ {
+    font-size: 20px;
+    margin-top: -3px;
+}
+.DetailText__ {
+    text-align: center;
+    font-size: 16px;
+    color: #a9acaf;
+    margin-bottom: 12px
+}
+
+.startFreeText__ {
+    cursor: pointer;
+    margin-left: 4px;
+    color: #009688;
+    font-size: 16px;
+    font-weight: 700
+}
+.text-danger {
+    color: #dc3545!important
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent
+}
+a.text-danger:focus,a.text-danger:hover {
+    color: #a71d2a!important
+}
+.text-warning {
+    color: #ffc107!important
+}
+
+a.text-warning:focus,a.text-warning:hover {
+    color: #ba8b00!important
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline
+}
+
+a:not([href]):not([class]) {
+    color: inherit;
+    text-decoration: none
+}
+
+a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none
+}
+
+b,strong {
+    font-size: 15px;
+    font-weight: bolder
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer
+}
+
+a.btn.disabled,fieldset:disabled a.btn {
+    pointer-events: none
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc
+}
+
+.btn-primary.focus,.btn-primary:focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    -webkit-box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+    box-shadow: 0 0 0 .2rem rgba(38,143,255,.5)
+}
+
+.btn-primary.disabled,.btn-primary:disabled {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,.btn-primary:not(:disabled):not(.disabled):active,.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,.btn-primary:not(:disabled):not(.disabled):active:focus,.show>.btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+    box-shadow: 0 0 0 .2rem rgba(38,143,255,.5)
+}
+.mt-3 {
+    margin-top: 10px
+}
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out
+}
+
+@media (prefers-reduced-motion:reduce) {
+    .btn {
+        -webkit-transition: none;
+        transition: none
+    }
+}
+
+.btn:hover {
+    color: #212529;
+    text-decoration: none
+}
+
+.btn.focus,.btn:focus {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.25)
+}
+
+.btn.disabled,.btn:disabled {
+    opacity: .65
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer
+}
+
+a.btn.disabled,fieldset:disabled a.btn {
+    pointer-events: none
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc
+}
+
+.btn-primary.focus,.btn-primary:focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    -webkit-box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+    box-shadow: 0 0 0 .2rem rgba(38,143,255,.5)
+}
+
+.btn-primary.disabled,.btn-primary:disabled {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,.btn-primary:not(:disabled):not(.disabled):active,.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,.btn-primary:not(:disabled):not(.disabled):active:focus,.show>.btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(38,143,255,.5);
+    box-shadow: 0 0 0 .2rem rgba(38,143,255,.5)
+}
+.small-swal {
+    max-width: 250px !important;
+}
+
+.small-swal .swal-content {
+    padding: 5px;
+}
+
+.small-swal .swal-button-container {
+    text-align: center;
+}
+
+.small-swal .swal-button--confirm {
+    padding: 5px 10px;
+}
+
+@media (max-width: 788px) {
+    .small-swal {
+        max-width: 250px !important;
+        margin-top: 3px;
+        height: auto;
+        padding: 5px; 
+    }
+}
+
+.ThanhDieu_Name img {
+    vertical-align: middle;
+}
+
+.__Footer__ {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    height: 35px;
+}
+
+@media(max-width: 800px) {
+    .__Footer__ {
+        width: 100%;
+        margin-top: 3px;
+        height: 50px;
+    }
+}
+.Footer__ {
+    color: #fff
+}
